@@ -9,7 +9,21 @@
 #include <sstream>
 #include <conio.h>
 using namespace std;
+// 20.01.2017 Renata Smietanka s16139
+/*----------------------------------------------------------------*/
+/*Program super - odpytywacz. - projekt koncowy
+Cel - służy do nauki słówek przed egzaminami z języków obcych.
 
+Funkcjonalności:
+1. Wczytywanie pliku CSV ze słówkami i tłumaczeniami
+2. Wybór preferencji użytkownika odnośnie tłumaczenia - czy odpytywanie z j.obcego na polski czy z polskiego na j.obcy
+3. Generowanie quizu(losowanie podzbioru słówek do tłumaczenia)
+4. Automatyczna ocena quizu
+5. Pokazanie pytań z błednymi odpowiedziami oraz wskazanie poprawnych
+6. Możliwość ponownego wykonania quizu po jego zakończeniu
+/*----------------------------------------------------------------*/
+
+//struktura tlumaczenie zawierajaca slowko z j.polskiego i z j.obcego
 struct tlumaczenie
 {
 	string slowo1, slowo2;
