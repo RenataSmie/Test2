@@ -1,5 +1,3 @@
-# Test2
-
 #include <iomanip>
 #include <fstream>
 #include <vector>
@@ -11,7 +9,6 @@
 #include <sstream>
 #include <conio.h>
 using namespace std;
-
 // 20.01.2017 Renata Smietanka s16139
 /*----------------------------------------------------------------*/
 /*Program super - odpytywacz. - projekt koncowy
